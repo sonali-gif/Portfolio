@@ -1,0 +1,203 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f8fafc);
+    color: #1e293b;
+    line-height: 1.6;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #0f172a;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #e0f2fe;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #38bdf8;
+  }
+  
+  #name {
+    font-size: 1pc;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Home */
+  #home {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #bae6fd, #e0f2fe);
+    color: #0c4a6e;
+  }
+  
+  #home p:first-child {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  #home p:last-child {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* About */
+  #about {
+    background-color: #f0f9ff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  #about table {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  #about img {
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+  #about td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  #about p {
+    margin-bottom: 10px;
+  }
+  
+  /* Service */
+  #service pre {
+    background: #f1f5f9;
+    padding: 20px;
+    border-left: 5px solid #3b82f6;
+    font-size: 1rem;
+    border-radius: 5px;
+    white-space: pre-wrap;
+  }
+  
+  /* Certificate */
+  #certificate {
+    background-color: #e0f2fe;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  #certificate p {
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  #certificate img {
+    margin: 10px 0;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact */
+  #contact {
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 80%;
+    padding: 12px;
+    margin-top: 0px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    height: 50px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0284c7;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 60px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    #about table {
+      display: block;
+    }
+  
+    form input, form textarea {
+      width: 95%;
+    }
+  
+    #home p:first-child {
+      font-size: 2.2rem;
+    }
+  }
+  
